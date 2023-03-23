@@ -12,6 +12,6 @@
 | WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
 
-
+*Proovime
 *Using python script to extract data
 *Openrefine to process
