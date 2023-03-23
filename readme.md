@@ -1,4 +1,5 @@
-#Mis on mis
+[https://airviro.klab.ee/](Eesti ilm)
+
 | Attr  | example value | unit    | Description                 |
 | ----- | ------------- | ------- | --------------------------- |
 | SO2   | 0,23          | µg/m³ | Vääveldioksiid            |
@@ -10,3 +11,7 @@
 | TEMP  | 9,72          | C       | Temperatuur                 |
 | WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
+
+
+*Using python script to extract data
+*Openrefine to process
