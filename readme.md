@@ -1,4 +1,4 @@
-[https://airviro.klab.ee/] (Eesti ilm)
+[Eesti ilm] (https://airviro.klab.ee/)
 
 | Attr  | example value | unit    | Description                 |
 | ----- | ------------- | ------- | --------------------------- |
