@@ -24,12 +24,13 @@
 | WD10  | 204       | deg     | Wind direction at 10 m  |
 | WS10  | 1.56          | m/s     | Wind speed at 10 m |
 
-*Using Python script to extract the data from the website for a given year and save the data as csv-file
+*Using Python script to extract the data from the website for a given year and save the data as csv-file into folder air_data
 
 *Using Python Pandas library, the csv-file was read into a dataframe (table) df
 
 *Pandas was used to do all the processing
 
 *In the end the tables with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset were obtained
+and saved as CSV files into a separate folder air_data_tables
 
 *Decided to use one programming language to avoid jumping between file formats, programming languages, tools to reduce potential confusion
