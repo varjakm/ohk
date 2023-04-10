@@ -12,6 +12,20 @@
 | WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
 
-*Proovime
-*Using python script to extract data
-*Openrefine to process
+| Attr  | example value | unit    | Description                 |
+| ----- | ------------- | ------- | --------------------------- |
+| SO2   | 0.23          | µg/m³ | Sulfur dioxide            |
+| NO2   | 0.02          | µg/m³ | Nitrogen dioxide          |
+| CO    | 0.24          | mg/m³  | Carbon monooxide              |
+| O3    | 70.05         | µg/m³ | Ozone                       |
+| PM10  | 8.55          | µg/m³ | Small particles             |
+| PM2.5 | 4.72          | µg/m³ | Very small particles       |
+| TEMP  | 9.72          | C       | Temperature                 |
+| WD10  | 204.40        | deg     | Wind direction at 10 m  |
+| WS10  | 1.56          | m/s     | Wind speed at 10 m |
+
+*Using Python script to extract the data from the website for a given year and save the data as csv-file
+*Using Python Pandas library the csv-file was read into a dataframe (table) df
+*Pandas was used to do the preprocessing
+*In the end with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset wer obtained
+*Decided to use one and only porgramming language to avoid jumping and confusion
