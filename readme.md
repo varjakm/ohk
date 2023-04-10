@@ -1,4 +1,8 @@
+ESTONIAN WEATHER
+
 [Eesti ilm] (https://airviro.klab.ee/)
+
+The following attributes would be fetched, the values are given hourly
 
 | Attr  | example value | unit    | Description                 |
 | ----- | ------------- | ------- | --------------------------- |
@@ -24,14 +28,17 @@
 | WD10  | 204       | deg     | Wind direction at 10 m  |
 | WS10  | 1.56          | m/s     | Wind speed at 10 m |
 
-*Using Python script to extract the data from the website for a given year and save the data as csv-file into folder air_data
+*Using Python script to extract the data from the website for a given year and save the data as csv-file into folder 'air_data'
 
-*Using Python Pandas library, the csv-file was read into a dataframe (table) df
+*Data extraction done for year 2022, due to website limitations, for each month separately
 
-*Pandas was used to do all the processing
+*Then, the data for each month merged into a large csv file, for the whole year 2022
 
-*In the end the tables with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset were obtained
-and saved as CSV files into a separate folder air_data_tables
+*Using Python Pandas library, the csv-file was read into a dataframe (table) df for processing
+
+*Pandas was used to do all the necessary processing, including aggregation
+
+*In the end three tables were obtained: tables with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset and saved as CSV files into a separate folder 'air_data_tables'
 
 *Decided to use one programming language to avoid jumping between file formats, programming languages, tools to reduce potential confusion
 
