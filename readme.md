@@ -9,7 +9,7 @@
 | PM10  | 8,55          | µg/m³ | Peened osakesed             |
 | PM2.5 | 4,72          | µg/m³ | Eriti peened osakesed       |
 | TEMP  | 9,72          | C       | Temperatuur                 |
-| WD10  | 204,40        | deg     | Tuule suund 10 m kõrgusel  |
+| WD10  | 204        | deg     | Tuule suund 10 m kõrgusel  |
 | WS10  | 1,56          | m/s     | Tuule kiirus 10 m kõrgusel |
 
 | Attr  | example value | unit    | Description                 |
@@ -21,12 +21,12 @@
 | PM10  | 8.55          | µg/m³ | Small particles             |
 | PM2.5 | 4.72          | µg/m³ | Very small particles       |
 | TEMP  | 9.72          | C       | Temperature                 |
-| WD10  | 204.40        | deg     | Wind direction at 10 m  |
+| WD10  | 204       | deg     | Wind direction at 10 m  |
 | WS10  | 1.56          | m/s     | Wind speed at 10 m |
 
 *Using Python script to extract the data from the website for a given year and save the data as csv-file
 
-*Using Python Pandas library the csv-file was read into a dataframe (table) df
+*Using Python Pandas library, the csv-file was read into a dataframe (table) df
 
 *Pandas was used to do all the processing
 
