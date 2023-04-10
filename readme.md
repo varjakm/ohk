@@ -42,4 +42,6 @@ The following attributes would be fetched, the values are given hourly
 
 *Decided to use one programming language to avoid jumping between file formats, programming languages, tools to reduce potential confusion
 
-*Python version 3.9.13
+*Python version 3.9.13, run on Windows 10
+
+*Program can be run by simply starting it, major steps are commented in the code
