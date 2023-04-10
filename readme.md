@@ -34,3 +34,5 @@
 and saved as CSV files into a separate folder air_data_tables
 
 *Decided to use one programming language to avoid jumping between file formats, programming languages, tools to reduce potential confusion
+
+*Python version 3.9.13
