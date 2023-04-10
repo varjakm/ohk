@@ -28,8 +28,8 @@
 
 *Using Python Pandas library the csv-file was read into a dataframe (table) df
 
-*Pandas was used to do the preprocessing
+*Pandas was used to do all the processing
 
-*In the end with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset wer obtained
+*In the end the tables with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset were obtained
 
-*Decided to use one and only porgramming language to avoid jumping and confusion
+*Decided to use one and only programming language to avoid jumping and confusion
