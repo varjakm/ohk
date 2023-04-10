@@ -32,4 +32,4 @@
 
 *In the end the tables with hourly (df_hourly), daily (df_daily), and monthly (df_monthly) average values for all columns in the dataset were obtained
 
-*Decided to use one and only programming language to avoid jumping and confusion
+*Decided to use one programming language to avoid jumping between file formats, programming languages, tools to reduce potential confusion
